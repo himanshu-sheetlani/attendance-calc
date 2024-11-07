@@ -36,7 +36,7 @@ function calculation(calc,a,b,n){
             n++,b++,a++
         }
         calc=(a/b)*100
-        z.innerHTML=`You need to attend <b>${n}</b> more classes to attain ${(Math.round((calc* 100)) / 100)} attendance.`;
+        z.innerHTML=`You need to attend <b>${n}</b> more days to attain ${(Math.round((calc* 100)) / 100)} attendance.`;
         output1.appendChild(z);
         n=0
     }else if (calc>parseInt(dropbox.value)){
